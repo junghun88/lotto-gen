@@ -1,0 +1,6 @@
+{
+  "name": "Lotto Recommendation",
+  "description": "An elegant, interactive lotto number recommendation application featuring dream analysis, birthdate numerology, zodiac luck, and advanced statistical generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
