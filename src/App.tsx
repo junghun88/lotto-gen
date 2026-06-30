@@ -37,6 +37,7 @@ import {
   HISTORICAL_HOT_NUMBERS,
   HISTORICAL_COLD_NUMBERS
 } from "./utils/lotto";
+import { DisqusComments } from "./components/DisqusComments";
 
 interface SavedTicket {
   id: string;
@@ -1202,6 +1203,9 @@ export default function App() {
             </div>
           </form>
         </section>
+
+        {/* Disqus comments section */}
+        <DisqusComments />
 
         {/* Footer info banner */}
         <footer className="mt-16 text-center text-[11px] text-slate-600 border-t border-slate-900 pt-6">
