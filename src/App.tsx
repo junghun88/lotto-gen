@@ -664,7 +664,7 @@ export default function App() {
                             setSelectedDreamPreset(null);
                           }}
                           placeholder="예: 돼지, 똥, 불이 활활 타는 꿈, 은가락지"
-                          className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors"
+                          className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors relative z-20 cursor-text caret-amber-400"
                         />
                         <button
                           onClick={() => handleGenerateDream()}
@@ -713,7 +713,7 @@ export default function App() {
                           type="date"
                           value={birthdate}
                           onChange={(e) => setBirthdate(e.target.value)}
-                          className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-amber-500 transition-colors"
+                          className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-amber-500 transition-colors relative z-20 cursor-text caret-amber-400"
                         />
                       </div>
 
@@ -1091,7 +1091,7 @@ export default function App() {
                   onChange={(e) => setPartnerName(e.target.value)}
                   placeholder="예: 홍길동 또는 (주)행운컴퍼니"
                   required
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors relative z-20 cursor-text caret-amber-400"
                 />
               </div>
 
@@ -1106,7 +1106,7 @@ export default function App() {
                   onChange={(e) => setPartnerEmail(e.target.value)}
                   placeholder="예: contact@domain.com"
                   required
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors relative z-20 cursor-text caret-amber-400"
                 />
               </div>
             </div>
@@ -1122,7 +1122,7 @@ export default function App() {
                   value={partnerPhone}
                   onChange={(e) => setPartnerPhone(e.target.value)}
                   placeholder="예: 010-1234-5678"
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors"
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors relative z-20 cursor-text caret-amber-400"
                 />
               </div>
 
@@ -1155,7 +1155,7 @@ export default function App() {
                 placeholder="제안서 요약, 협업 형태 등 구체적인 상세 내용을 입력해 주세요."
                 required
                 rows={4}
-                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors resize-none"
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-600 focus:outline-none focus:border-amber-500 transition-colors resize-none relative z-20 cursor-text caret-amber-400"
               />
             </div>
 
